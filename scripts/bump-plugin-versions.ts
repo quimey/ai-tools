@@ -18,6 +18,11 @@ const PLUGINS = [
 		diff_path: 'plugins/cursor/svelte/',
 		json_path: './plugins/cursor/svelte/.cursor-plugin/plugin.json',
 	},
+	{
+		name: 'Devin',
+		diff_path: 'plugins/devin/svelte/',
+		json_path: './plugins/devin/svelte/.devin-plugin/plugin.json',
+	},
 ];
 
 function has_changes(diff_path: string): boolean {

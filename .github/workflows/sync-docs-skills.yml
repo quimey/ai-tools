@@ -78,6 +78,7 @@ jobs:
         run: |
           pnpm sync-claude-plugin
           pnpm sync-cursor-plugin
+          pnpm sync-devin-plugin
           pnpm sync-opencode-plugin
           pnpm sync-pi-plugin
           pnpm generate-skill-docs
@@ -107,6 +108,7 @@ jobs:
             - Rebuilt synced skill folders with `scripts/resolve-references.ts`
             - Synced `plugins/claude/svelte/` (skills, agents)
             - Synced `plugins/cursor/svelte/` (skills, agents, rules)
+            - Synced `plugins/devin/svelte/` (skills, agents, rules, MCP)
             - Synced `packages/opencode/` (skills, instructions)
             - Synced `packages/pi/` (skills, instructions, schema)
             - Updated documentation

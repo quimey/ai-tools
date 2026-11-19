@@ -1,0 +1,12 @@
+{
+	"name": "svelte",
+	"description": "A plugin for Svelte development, MCP, skills, and code editing.",
+	"version": "1.0.11",
+	"author": {
+		"name": "Svelte"
+	},
+	"homepage": "https://svelte.dev",
+	"repository": "https://github.com/sveltejs/ai-tools/tree/main/plugins/devin/svelte",
+	"license": "MIT",
+	"keywords": ["svelte", "sveltekit", "mcp"]
+}

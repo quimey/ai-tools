@@ -62,6 +62,7 @@ jobs:
           git diff --exit-code \
             plugins/claude/svelte/ \
             plugins/cursor/svelte/ \
+            plugins/devin/svelte/ \
             packages/opencode/skills/ \
             packages/opencode/instructions/ \
             packages/opencode/schema.json \
@@ -89,6 +90,7 @@ jobs:
             ## Changes
             - Synced `plugins/claude/svelte/` (skills, agents with `permissionMode`)
             - Synced `plugins/cursor/svelte/` (skills, agents, rules)
+            - Synced `plugins/devin/svelte/` (skills, agents, rules, MCP)
             - Synced `packages/opencode/` (skills, instructions, schema)
             - Synced `packages/pi/` (skills, instructions, schema)
             - Updated documentation

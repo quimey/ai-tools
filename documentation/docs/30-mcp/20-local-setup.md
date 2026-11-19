@@ -47,6 +47,27 @@ command = "npx"
 args = ["-y", "@sveltejs/mcp"]
 ```
 
+## Devin CLI
+
+You can automatically configure the MCP server using the [Devin CLI plugin](devin-plugin) (recommended):
+
+```bash
+devin plugins install sveltejs/ai-tools#plugins/devin/svelte
+```
+
+If you prefer to configure it manually, add the following server to the Devin project or user MCP configuration:
+
+```json
+{
+	"mcpServers": {
+		"svelte": {
+			"command": "npx",
+			"args": ["-y", "@sveltejs/mcp"]
+		}
+	}
+}
+```
+
 ## Copilot CLI
 
 You can automatically configure the MCP server using the [Copilot plugin](copilot-plugin) (recommended). If you prefer to configure the MCP server manually, use the Copilot CLI to interactively add the MCP server:
